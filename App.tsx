@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
 export default function App() {
   const [uri, setUri] = useState(require('./src/images/dice1.png'));
+  const [previousNumber, setPreviousNumber] = useState(1);
 
   const generateRandomValue = (): number => {
     return Math.floor((Math.random() * 6) + 1);
@@ -11,6 +12,13 @@ export default function App() {
 
   const play = () => {
     const randomValue: number = generateRandomValue();
+    console.log('Random number = ', randomValue, ' previous = ', previousNumber);
+    if (randomValue === previousNumber) {
+      play();
+      return;
+    } else {
+      setPreviousNumber(randomValue);
+    }
     switch(randomValue) {
       case 1:
         setUri(require('./src/images/dice1.png'));
