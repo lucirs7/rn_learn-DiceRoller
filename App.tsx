@@ -10,7 +10,27 @@ export default function App() {
   };
 
   const play = () => {
-
+    const randomValue: number = generateRandomValue();
+    switch(randomValue) {
+      case 1:
+        setUri(require('./src/images/dice1.png'));
+        break;
+      case 2:
+        setUri(require('./src/images/dice2.png'));
+        break;
+      case 3:
+        setUri(require('./src/images/dice3.png'));
+        break;
+      case 4:
+        setUri(require('./src/images/dice4.png'));
+        break;
+      case 5:
+        setUri(require('./src/images/dice5.png'));
+        break;
+      case 6:
+        setUri(require('./src/images/dice6.png'));
+        break;
+    }
   };
 
   return (
