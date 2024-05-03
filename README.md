@@ -9,14 +9,10 @@ Random numbers are always different to the previous generated. The same number c
 App can be ran in both Android and iOS as it is developed with react native. It was developed using Expo.
 
 ### Android
-![Android screnshot: dice 1](https://github.com/lucirs7/rn_learn-DiceRoller/blob/master/screenshots/ss-android1-small.png)
-
-![Android screnshot: dice 5](https://github.com/lucirs7/rn_learn-DiceRoller/blob/master/screenshots/ss-android2-small.png)
+![Android screnshot: dice 1](https://github.com/lucirs7/rn_learn-DiceRoller/blob/master/screenshots/ss-android1-small.png) ![Android screnshot: dice 5](https://github.com/lucirs7/rn_learn-DiceRoller/blob/master/screenshots/ss-android2-small.png)
 
 ### iOS
-![iOS screnshot: dice 3](https://github.com/lucirs7/rn_learn-DiceRoller/blob/master/screenshots/ss-ios1-small.png)
-
-![iOS screnshot: dice 1](https://github.com/lucirs7/rn_learn-DiceRoller/blob/master/screenshots/ss-ios2-small.png)
+![iOS screnshot: dice 3](https://github.com/lucirs7/rn_learn-DiceRoller/blob/master/screenshots/ss-ios1-small.png) ![iOS screnshot: dice 1](https://github.com/lucirs7/rn_learn-DiceRoller/blob/master/screenshots/ss-ios2-small.png)
 
 ### Future to-do's
 ---
